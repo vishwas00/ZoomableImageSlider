@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZoomableImageSlider_Example' do
+  pod 'ZoomableImageSlider', :path => '../'
+
+  target 'ZoomableImageSlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
