@@ -6,8 +6,9 @@
 
 import UIKit
 
-class ZoomableImageSlider: UIPageViewController {
-
+public class ZoomableImageSlider: UIPageViewController {
+    
+    var placeHolderImage: UIImage?
     var images = [String]()
     fileprivate var currentIndex: Int?
     let imageIndexLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 40))
@@ -18,14 +19,14 @@ class ZoomableImageSlider: UIPageViewController {
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         basicSetUp()
     }
     
     
-    convenience init(images: [String], currentIndex: Int?) {
+    public convenience init(images: [String], currentIndex: Int?, placeHolderImage: UIImage?) {
         self.init()
         
         self.images = images
@@ -37,19 +38,19 @@ class ZoomableImageSlider: UIPageViewController {
     
     
     
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         UIApplication.shared.isStatusBarHidden = true
     }
     
     
-    override func viewWillDisappear(_ animated: Bool) {
+    override public func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         UIApplication.shared.isStatusBarHidden = false
     }
-
+    
     
     func basicSetUp() {
         dataSource = self
@@ -113,8 +114,8 @@ class ZoomableImageSlider: UIPageViewController {
 //MARK: implementation of UIPageViewControllerDataSource
 extension ZoomableImageSlider: UIPageViewControllerDataSource {
     // 1
-    func pageViewController(_ pageViewController: UIPageViewController,
-                            viewControllerBefore viewController: UIViewController) -> UIViewController? {
+    public func pageViewController(_ pageViewController: UIPageViewController,
+                                   viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
         if let viewController = viewController as? ZoomedPhotoViewController,
             let index = viewController.photoIndex,
@@ -126,8 +127,8 @@ extension ZoomableImageSlider: UIPageViewControllerDataSource {
     }
     
     // 2
-    func pageViewController(_ pageViewController: UIPageViewController,
-                            viewControllerAfter viewController: UIViewController) -> UIViewController? {
+    public func pageViewController(_ pageViewController: UIPageViewController,
+                                   viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
         if let viewController = viewController as? ZoomedPhotoViewController,
             let index = viewController.photoIndex,
@@ -139,11 +140,11 @@ extension ZoomableImageSlider: UIPageViewControllerDataSource {
     }
     
     // MARK: UIPageControl
-    func presentationCount(for pageViewController: UIPageViewController) -> Int {
+    public func presentationCount(for pageViewController: UIPageViewController) -> Int {
         return 0
     }
     
-    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
+    public func presentationIndex(for pageViewController: UIPageViewController) -> Int {
         return currentIndex ?? 0
     }
 }

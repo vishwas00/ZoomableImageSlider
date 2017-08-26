@@ -6,12 +6,12 @@
 //
 
 import UIKit
-import SDWebImage
+import Kingfisher
 
 let frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
 
 class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
-  
+    
     var imageView: UIImageView!
     var scrollView: UIScrollView!
     
@@ -28,7 +28,7 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
     
     convenience init(pageViewController: ZoomableImageSlider, index: Int, imageUrl: String, totalImageCount: Int) {
         self.init()
-       
+        
         pageVC = pageViewController
         self.photoIndex = index
         self.imageUrl = imageUrl
@@ -47,7 +47,7 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
- 
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -111,7 +111,7 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
     private func setData()
     {
         let url = URL(string: imageUrl)
-        imageView.sd_setImage(with: url, placeholderImage: nil)
+        imageView.kf.setImage(with: url, placeholder: pageVC.placeHolderImage, options: nil, progressBlock: nil, completionHandler: nil)
         pageVC.imageIndexLabel.text = "\(photoIndex! + 1)/\(totalImageCount)"
     }
     

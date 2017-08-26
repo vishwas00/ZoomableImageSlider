@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'ZoomableImageSlider'
-s.version          = '0.1.0'
+s.version          = '0.1.2'
 s.summary          = 'ZoomableImageSlider is a simple iOS library for showing images from internet in form of slider'
 
 # This description is used to generate tags and improve search results.
@@ -43,5 +43,5 @@ s.resource_bundles = {
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
-s.dependency 'SDWebImage'
+s.dependency 'Kingfisher'
 end
