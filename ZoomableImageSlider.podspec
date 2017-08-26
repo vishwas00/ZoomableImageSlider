@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'ZoomableImageSlider'
-s.version          = '0.1.2'
+s.version          = '0.1.3'
 s.summary          = 'ZoomableImageSlider is a simple iOS library for showing images from internet in form of slider'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ s.homepage         = 'https://github.com/vishwas00/ZoomableImageSlider'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Vishwas Singh' => 'singh.vis00@gmail.com' }
 s.source           = { :git => 'https://github.com/vishwas00/ZoomableImageSlider.git', :tag => s.version.to_s }
-# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.social_media_url = 'https://twitter.com/vishwas00'
 
 s.ios.deployment_target = '8.0'
 

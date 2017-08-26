@@ -29,6 +29,7 @@ public class ZoomableImageSlider: UIPageViewController {
     public convenience init(images: [String], currentIndex: Int?, placeHolderImage: UIImage?) {
         self.init()
         
+        self.placeHolderImage = placeHolderImage
         self.images = images
         if let _ = currentIndex {
             self.currentIndex = currentIndex!
@@ -72,7 +73,9 @@ public class ZoomableImageSlider: UIPageViewController {
     
     func setUpUI()
     {
-        closeButton.setBackgroundImage(UIImage(named: "close"), for: .normal)
+        let bundle = Bundle(for: self.classForCoder)
+        let image = UIImage(named: "close", in: bundle, compatibleWith: nil)
+        closeButton.setBackgroundImage(image, for: .normal)
         closeButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
         
         self.view.addSubview(imageIndexLabel)
@@ -88,8 +91,8 @@ public class ZoomableImageSlider: UIPageViewController {
         
         let closeButtonLeadingConstraint = NSLayoutConstraint(item: closeButton, attribute: .leading, relatedBy: .equal, toItem: self.view, attribute: .leading, multiplier: 1, constant: 8)
         let closeButtonTopConstraint = NSLayoutConstraint(item: closeButton, attribute: .top, relatedBy: .equal, toItem: self.view, attribute: .top, multiplier: 1, constant: 8)
-        let closeButtonWidthConstraint = NSLayoutConstraint(item: closeButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1, constant: 40)
-        let closeButtonHeightConstraint = NSLayoutConstraint(item: closeButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1, constant: 40)
+        let closeButtonWidthConstraint = NSLayoutConstraint(item: closeButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1, constant: 30)
+        let closeButtonHeightConstraint = NSLayoutConstraint(item: closeButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1, constant: 30)
         
         
         

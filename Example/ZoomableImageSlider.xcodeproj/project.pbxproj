@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		181293D7302950BA7886B74E /* Pods-ZoomableImageSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1B9E12C5D69DBEDDB93F8EBA /* Pods_ZoomableImageSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomableImageSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31ED737E66B200C9F06A6DA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		31ED737E66B200C9F06A6DA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3571EE18B1076744B2260CFE /* Pods_ZoomableImageSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomableImageSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ZoomableImageSlider_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomableImageSlider_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		71A04FCD6F816707850744D6 /* Pods-ZoomableImageSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableImageSlider_Tests/Pods-ZoomableImageSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CAA746BC5F7E48A323AA87D /* Pods-ZoomableImageSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableImageSlider_Tests/Pods-ZoomableImageSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AAB8D97257F0120A884F4709 /* Pods-ZoomableImageSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B746E7725590D9C88EC84181 /* ZoomableImageSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZoomableImageSlider.podspec; path = ../ZoomableImageSlider.podspec; sourceTree = "<group>"; };
-		F0E2B6F2B5D382D8B3448AF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B746E7725590D9C88EC84181 /* ZoomableImageSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZoomableImageSlider.podspec; path = ../ZoomableImageSlider.podspec; sourceTree = "<group>"; };
+		F0E2B6F2B5D382D8B3448AF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,12 +289,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ZoomableImageSlider/ZoomableImageSlider.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZoomableImageSlider.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

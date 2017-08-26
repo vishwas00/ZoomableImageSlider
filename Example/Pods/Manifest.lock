@@ -1,9 +1,7 @@
 PODS:
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
-  - ZoomableImageSlider (0.1.0):
-    - SDWebImage
+  - Kingfisher (3.11.0)
+  - ZoomableImageSlider (0.1.3):
+    - Kingfisher
 
 DEPENDENCIES:
   - ZoomableImageSlider (from `../`)
@@ -13,8 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
-  ZoomableImageSlider: 7ceae567a88f2f2feb9f54b145222585a85f0308
+  Kingfisher: c8911a7672c6217dec8c0520fb6e76ec4b7e0780
+  ZoomableImageSlider: f5ea3e5ff0bfee9b01c269af7d7eddfaad312e34
 
 PODFILE CHECKSUM: 857453f7c2061e122b3d6dd66c5e79009d40f65a
 
