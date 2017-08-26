@@ -1,5 +1,9 @@
 PODS:
-  - ZoomableImageSlider (0.1.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - ZoomableImageSlider (0.1.0):
+    - SDWebImage
 
 DEPENDENCIES:
   - ZoomableImageSlider (from `../`)
@@ -9,7 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZoomableImageSlider: b727f7ed7e8a2fb07bc7b7550deadae975381768
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  ZoomableImageSlider: 7ceae567a88f2f2feb9f54b145222585a85f0308
 
 PODFILE CHECKSUM: 857453f7c2061e122b3d6dd66c5e79009d40f65a
 
