@@ -17,6 +17,7 @@ ZoomableImageSlider is a simple iOS library for showing images from internet in 
 2. Images are loaded from url (from internet).
 3. Shows the image index as well.
 4. Close the carousel by simply swiping down
+5. Support for all device orientations
 
 
 
@@ -34,7 +35,7 @@ self.present(carousel, animated: true, completion: nil)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone or download the repo, and run the project from the Example directory.
 
 
 ## Installation
