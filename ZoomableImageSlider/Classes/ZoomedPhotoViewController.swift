@@ -54,6 +54,13 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
         setData()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        
+        scrollView.setZoomScale(1, animated: false)
+    }
+    
     
     func initUI()
     {
@@ -67,7 +74,7 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
         scrollView.maximumZoomScale = 4
         scrollView.delegate = self
         scrollView.addGestureRecognizer(tapGesture)
-        
+       
         
         imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
         imageView.contentMode = .scaleAspectFit

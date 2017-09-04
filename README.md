@@ -11,7 +11,7 @@
 ![out](https://user-images.githubusercontent.com/12559049/28767394-2345ab82-75f1-11e7-8077-e805a49b9924.gif)
 
 
-ZoomableImageSlider is a simple iOS library for showing images from internet in form of slider. It has following features-
+ZoomableImageSlider is a simple iOS library for showing images from url in form of slider. It has following features-
 
 1. Images are zoomable by double tap and by panning the finger as well.
 2. Images are loaded from url (from internet).
@@ -26,7 +26,7 @@ ZoomableImageSlider is a simple iOS library for showing images from internet in 
 
 let images = ["http://www.kurzweilai.net/images/iPhone4-S.jpg", "https://s-media-cache-ak0.pinimg.com/originals/93/aa/25/93aa2535372bb8d37ed42864ad55d904.jpg", "http://images.efulfilment.de/get_image/?t=29A598C0F35F861AECC5DF972434840B", "http://images.all-free-download.com/images/graphicthumb/monitor_the_cameras_02_hd_picture_168726.jpg"]
 
-let carousel = ImageCarousel(images: images, currentIndex: nil)
+let carousel = ImageCarousel(images: images, currentIndex: 2)
 
 self.present(carousel, animated: true, completion: nil)
 
