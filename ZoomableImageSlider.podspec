@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'ZoomableImageSlider'
-s.version          = '0.2.1'
+s.version          = '1.0.0'
 s.summary          = 'ZoomableImageSlider is a simple iOS library for showing images from url in form of slider'
 
 # This description is used to generate tags and improve search results.
