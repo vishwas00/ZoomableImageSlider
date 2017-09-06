@@ -27,6 +27,7 @@ ZoomableImageSlider is a simple iOS library for showing images from url in form 
 let images = ["http://www.kurzweilai.net/images/iPhone4-S.jpg", "https://s-media-cache-ak0.pinimg.com/originals/93/aa/25/93aa2535372bb8d37ed42864ad55d904.jpg", "http://images.efulfilment.de/get_image/?t=29A598C0F35F861AECC5DF972434840B", "http://images.all-free-download.com/images/graphicthumb/monitor_the_cameras_02_hd_picture_168726.jpg"]
 
 let vc = ZoomableImageSlider(images: images, currentIndex: 2, placeHolderImage: nil)
+
 present(vc, animated: true, completion: nil)
 
 
