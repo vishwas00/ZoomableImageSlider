@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'ZoomableImageSlider'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = 'ZoomableImageSlider is a simple iOS library for showing images from url in form of slider'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ ZoomableImageSlider is a simple iOS library for showing images in slider. It has
 Images are zoomable by double tap and by panning the finger as well.
 Images are loaded from url (from internet).
 Shows the image index as well.
-Close the carousel by simply swiping down
+Close the slider by simply swiping down
 Support for all device orientations
 DESC
 

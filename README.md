@@ -17,7 +17,7 @@ It has following features-
 1. Images are zoomable by double tap and by panning the finger as well.
 2. Images are loaded from url (from internet).
 3. Shows the image index as well.
-4. Close the carousel by simply swiping down
+4. Close the slider by simply swiping down
 5. Support for all device orientations
 
 
