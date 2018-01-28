@@ -123,7 +123,7 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
     }
     
     
-    func handleDoubleTap(gestureRecognizer: UIGestureRecognizer)
+    @objc func handleDoubleTap(gestureRecognizer: UIGestureRecognizer)
     {
         if(self.scrollView.zoomScale > self.scrollView.minimumZoomScale)
         {
@@ -135,7 +135,7 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
         }
     }
     
-    func swipeDownGestureAction()
+    @objc func swipeDownGestureAction()
     {
         pageVC?.dismiss(animated: true, completion: nil)
     }

@@ -108,7 +108,7 @@ public class ZoomableImageSlider: UIPageViewController {
     
     
     
-    func closeButtonTapped()
+    @objc func closeButtonTapped()
     {
         self.dismiss(animated: true, completion: nil)
     }
