@@ -140,6 +140,7 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
         pageVC?.dismiss(animated: true, completion: nil)
     }
     
+    
     //MARK:- UIScrollViewDelegate
     
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
