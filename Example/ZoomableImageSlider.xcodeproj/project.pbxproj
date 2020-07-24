@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3771D3502902772AD95BB567 /* Pods_ZoomableImageSlider_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3571EE18B1076744B2260CFE /* Pods_ZoomableImageSlider_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		634202614871E154956C0A79 /* Pods_ZoomableImageSlider_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9E12C5D69DBEDDB93F8EBA /* Pods_ZoomableImageSlider_Example.framework */; };
+		994FF159010ED4CF0D18ECBC /* Pods_ZoomableImageSlider_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC09232E42678E8B63DCDF9 /* Pods_ZoomableImageSlider_Example.framework */; };
+		C942EBEF3A1CD2737725417B /* Pods_ZoomableImageSlider_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BACC46CE6E9FC220467C144 /* Pods_ZoomableImageSlider_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181293D7302950BA7886B74E /* Pods-ZoomableImageSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1B9E12C5D69DBEDDB93F8EBA /* Pods_ZoomableImageSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomableImageSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31ED737E66B200C9F06A6DA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3571EE18B1076744B2260CFE /* Pods_ZoomableImageSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomableImageSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A9B4DE4441ABFE2373EEB0 /* Pods-ZoomableImageSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Example.release.xcconfig"; path = "Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1FC09232E42678E8B63DCDF9 /* Pods_ZoomableImageSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomableImageSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D65F07B34C5512683D53D63 /* Pods-ZoomableImageSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZoomableImageSlider_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomableImageSlider_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +41,12 @@
 		607FACE51AFB9204008FA782 /* ZoomableImageSlider_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomableImageSlider_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		71A04FCD6F816707850744D6 /* Pods-ZoomableImageSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableImageSlider_Tests/Pods-ZoomableImageSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CAA746BC5F7E48A323AA87D /* Pods-ZoomableImageSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableImageSlider_Tests/Pods-ZoomableImageSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AAB8D97257F0120A884F4709 /* Pods-ZoomableImageSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B746E7725590D9C88EC84181 /* ZoomableImageSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZoomableImageSlider.podspec; path = ../ZoomableImageSlider.podspec; sourceTree = "<group>"; };
-		F0E2B6F2B5D382D8B3448AF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		760CE1388DC10290CBAB0B7F /* Pods-ZoomableImageSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZoomableImageSlider_Tests/Pods-ZoomableImageSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7BACC46CE6E9FC220467C144 /* Pods_ZoomableImageSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomableImageSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADED005218A25B640A062FC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D5A7D97C08A1DC9D3FA915B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DC7EE8C2963652E0B5DF7190 /* ZoomableImageSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZoomableImageSlider.podspec; path = ../ZoomableImageSlider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5EA7C82BDE9B198B726D0A3 /* Pods-ZoomableImageSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoomableImageSlider_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZoomableImageSlider_Tests/Pods-ZoomableImageSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634202614871E154956C0A79 /* Pods_ZoomableImageSlider_Example.framework in Frameworks */,
+				994FF159010ED4CF0D18ECBC /* Pods_ZoomableImageSlider_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,13 +62,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3771D3502902772AD95BB567 /* Pods_ZoomableImageSlider_Tests.framework in Frameworks */,
+				C942EBEF3A1CD2737725417B /* Pods_ZoomableImageSlider_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DFA46D16ACFE07D2652A4BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FC09232E42678E8B63DCDF9 /* Pods_ZoomableImageSlider_Example.framework */,
+				7BACC46CE6E9FC220467C144 /* Pods_ZoomableImageSlider_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +85,8 @@
 				607FACD21AFB9204008FA782 /* Example for ZoomableImageSlider */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				654AF462350AC1F2BB525CEF /* Pods */,
-				656777F5FD57E158233DA483 /* Frameworks */,
+				7533CF0D91F5A6F3894D5331 /* Pods */,
+				0DFA46D16ACFE07D2652A4BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,31 +141,22 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B746E7725590D9C88EC84181 /* ZoomableImageSlider.podspec */,
-				F0E2B6F2B5D382D8B3448AF9 /* README.md */,
-				31ED737E66B200C9F06A6DA8 /* LICENSE */,
+				DC7EE8C2963652E0B5DF7190 /* ZoomableImageSlider.podspec */,
+				ADED005218A25B640A062FC7 /* README.md */,
+				D5A7D97C08A1DC9D3FA915B7 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		654AF462350AC1F2BB525CEF /* Pods */ = {
+		7533CF0D91F5A6F3894D5331 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AAB8D97257F0120A884F4709 /* Pods-ZoomableImageSlider_Example.debug.xcconfig */,
-				181293D7302950BA7886B74E /* Pods-ZoomableImageSlider_Example.release.xcconfig */,
-				71A04FCD6F816707850744D6 /* Pods-ZoomableImageSlider_Tests.debug.xcconfig */,
-				7CAA746BC5F7E48A323AA87D /* Pods-ZoomableImageSlider_Tests.release.xcconfig */,
+				5D65F07B34C5512683D53D63 /* Pods-ZoomableImageSlider_Example.debug.xcconfig */,
+				12A9B4DE4441ABFE2373EEB0 /* Pods-ZoomableImageSlider_Example.release.xcconfig */,
+				E5EA7C82BDE9B198B726D0A3 /* Pods-ZoomableImageSlider_Tests.debug.xcconfig */,
+				760CE1388DC10290CBAB0B7F /* Pods-ZoomableImageSlider_Tests.release.xcconfig */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		656777F5FD57E158233DA483 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1B9E12C5D69DBEDDB93F8EBA /* Pods_ZoomableImageSlider_Example.framework */,
-				3571EE18B1076744B2260CFE /* Pods_ZoomableImageSlider_Tests.framework */,
-			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ZoomableImageSlider_Example" */;
 			buildPhases = (
-				FC3D7E0CA6F80740312FB026 /* [CP] Check Pods Manifest.lock */,
+				9FF9349C5BFDE60BB23AB4E9 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				8D96C97D3EC56EA9FE60CB47 /* [CP] Embed Pods Frameworks */,
-				B8A346C8BC3B663D4B9F83F6 /* [CP] Copy Pods Resources */,
+				EF92CBADFC94E5CA9C0CA1DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,12 +185,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ZoomableImageSlider_Tests" */;
 			buildPhases = (
-				29915DB87D7E17F44045EF6B /* [CP] Check Pods Manifest.lock */,
+				85029D7A7019B3FFAF9E6C7F /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				B19984E8061C3305FACA112D /* [CP] Embed Pods Frameworks */,
-				DE65F11BC9FF946EB2F819F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,17 +206,17 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -229,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -264,16 +262,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29915DB87D7E17F44045EF6B /* [CP] Check Pods Manifest.lock */ = {
+		85029D7A7019B3FFAF9E6C7F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ZoomableImageSlider_Tests-checkManifestLockResult.txt",
 			);
@@ -282,13 +284,35 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8D96C97D3EC56EA9FE60CB47 /* [CP] Embed Pods Frameworks */ = {
+		9FF9349C5BFDE60BB23AB4E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoomableImageSlider_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF92CBADFC94E5CA9C0CA1DC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ZoomableImageSlider/ZoomableImageSlider.framework",
 			);
@@ -299,70 +323,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B19984E8061C3305FACA112D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZoomableImageSlider_Tests/Pods-ZoomableImageSlider_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8A346C8BC3B663D4B9F83F6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE65F11BC9FF946EB2F819F8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZoomableImageSlider_Tests/Pods-ZoomableImageSlider_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC3D7E0CA6F80740312FB026 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZoomableImageSlider_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZoomableImageSlider_Example/Pods-ZoomableImageSlider_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -423,14 +384,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -454,11 +421,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -470,14 +438,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -494,48 +468,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAB8D97257F0120A884F4709 /* Pods-ZoomableImageSlider_Example.debug.xcconfig */;
+			baseConfigurationReference = 5D65F07B34C5512683D53D63 /* Pods-ZoomableImageSlider_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZoomableImageSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 181293D7302950BA7886B74E /* Pods-ZoomableImageSlider_Example.release.xcconfig */;
+			baseConfigurationReference = 12A9B4DE4441ABFE2373EEB0 /* Pods-ZoomableImageSlider_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZoomableImageSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71A04FCD6F816707850744D6 /* Pods-ZoomableImageSlider_Tests.debug.xcconfig */;
+			baseConfigurationReference = E5EA7C82BDE9B198B726D0A3 /* Pods-ZoomableImageSlider_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -546,23 +525,27 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomableImageSlider_Example.app/ZoomableImageSlider_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CAA746BC5F7E48A323AA87D /* Pods-ZoomableImageSlider_Tests.release.xcconfig */;
+			baseConfigurationReference = 760CE1388DC10290CBAB0B7F /* Pods-ZoomableImageSlider_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomableImageSlider_Example.app/ZoomableImageSlider_Example";
 			};
 			name = Release;
 		};

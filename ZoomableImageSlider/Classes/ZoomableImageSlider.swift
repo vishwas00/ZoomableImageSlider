@@ -36,38 +36,17 @@ public class ZoomableImageSlider: UIPageViewController {
         }
         basicSetUp()
     }
-    
-    
-    
-    override public func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         
-        UIApplication.shared.isStatusBarHidden = true
-    }
-    
-    
-    override public func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        
-        UIApplication.shared.isStatusBarHidden = false
-    }
-    
-    
     func basicSetUp() {
         dataSource = self
         self.view.backgroundColor = UIColor.white
-        
-        
-        // 1
         if let viewController = getZoomedPhotoViewController(currentIndex ?? 0) {
             let viewControllers = [viewController]
-            // 2
             setViewControllers(viewControllers,
                                direction: .forward,
                                animated: false,
                                completion: nil)
         }
-        
         setUpUI()
     }
     
@@ -80,8 +59,8 @@ public class ZoomableImageSlider: UIPageViewController {
         
         self.view.addSubview(imageIndexLabel)
         self.view.addSubview(closeButton)
-        self.view.bringSubview(toFront: imageIndexLabel)
-        self.view.bringSubview(toFront: closeButton)
+        self.view.bringSubviewToFront(imageIndexLabel)
+        self.view.bringSubviewToFront(closeButton)
         
         closeButton.translatesAutoresizingMaskIntoConstraints = false
         imageIndexLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -94,8 +73,6 @@ public class ZoomableImageSlider: UIPageViewController {
         let closeButtonWidthConstraint = NSLayoutConstraint(item: closeButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1, constant: 30)
         let closeButtonHeightConstraint = NSLayoutConstraint(item: closeButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1, constant: 30)
         
-        
-        
         self.view.addConstraints([labelTrailingConstraint, labelBottomConstraint, closeButtonLeadingConstraint, closeButtonTopConstraint, closeButtonWidthConstraint, closeButtonHeightConstraint])
     }
     
@@ -106,8 +83,6 @@ public class ZoomableImageSlider: UIPageViewController {
         return page
     }
     
-    
-    
     @objc func closeButtonTapped()
     {
         self.dismiss(animated: true, completion: nil)
@@ -116,7 +91,6 @@ public class ZoomableImageSlider: UIPageViewController {
 
 //MARK: implementation of UIPageViewControllerDataSource
 extension ZoomableImageSlider: UIPageViewControllerDataSource {
-    // 1
     public func pageViewController(_ pageViewController: UIPageViewController,
                                    viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
@@ -129,7 +103,6 @@ extension ZoomableImageSlider: UIPageViewControllerDataSource {
         return nil
     }
     
-    // 2
     public func pageViewController(_ pageViewController: UIPageViewController,
                                    viewControllerAfter viewController: UIViewController) -> UIViewController? {
         

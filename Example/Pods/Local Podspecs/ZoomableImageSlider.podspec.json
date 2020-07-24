@@ -1,8 +1,8 @@
 {
   "name": "ZoomableImageSlider",
-  "version": "0.1.3",
-  "summary": "ZoomableImageSlider is a simple iOS library for showing images from internet in form of slider",
-  "description": "ZoomableImageSlider is a simple iOS library for showing images in slider. It has following features-\n\nImages are zoomable by double tap and by panning the finger as well.\nImages are loaded from url (from internet).\nShows the image index as well.\nClose the carousel by simply swiping down",
+  "version": "3.0.0",
+  "summary": "ZoomableImageSlider is a simple iOS library for showing images from url in form of slider",
+  "description": "ZoomableImageSlider is a simple iOS library for showing images in slider. It has following features-\n\nImages are zoomable by double tap and by panning the finger as well.\nImages are loaded from url (from internet).\nShows the image index as well.\nClose the slider by simply swiping down\nSupport for all device orientations",
   "homepage": "https://github.com/vishwas00/ZoomableImageSlider",
   "license": {
     "type": "MIT",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/vishwas00/ZoomableImageSlider.git",
-    "tag": "0.1.3"
+    "tag": "3.0.0"
   },
   "social_media_url": "https://twitter.com/vishwas00",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
+  "swift_versions": "5.0",
   "source_files": "ZoomableImageSlider/Classes/*",
   "resource_bundles": {
     "ZoomableImageSlider": [
@@ -29,5 +30,6 @@
     "Kingfisher": [
 
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

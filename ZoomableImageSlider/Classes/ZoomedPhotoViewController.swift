@@ -91,7 +91,8 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
     
     func addConstraints()
     {
-        
+        guard let scrollView = self.scrollView else { return }
+        guard let imageView = self.imageView else { return }
         imageView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -118,7 +119,16 @@ class ZoomedPhotoViewController: UIViewController, UIScrollViewDelegate {
     private func setData()
     {
         let url = URL(string: imageUrl)
-        imageView.kf.setImage(with: url, placeholder: pageVC.placeHolderImage, options: nil, progressBlock: nil, completionHandler: nil)
+
+        imageView.kf.indicatorType = .activity
+        imageView.kf.setImage(
+            with: url,
+            placeholder: pageVC.placeHolderImage,
+            options: [
+                .scaleFactor(UIScreen.main.scale),
+                .transition(.fade(1)),
+                .cacheOriginalImage
+            ])
         pageVC.imageIndexLabel.text = "\(photoIndex! + 1)/\(totalImageCount)"
     }
     

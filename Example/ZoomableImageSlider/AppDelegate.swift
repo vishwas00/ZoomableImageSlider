@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ZoomableImageSlider
 //
-//  Created by vishwas00 on 08/26/2017.
-//  Copyright (c) 2017 vishwas00. All rights reserved.
+//  Created by Vishwas Singh on 05/11/2020.
+//  Copyright (c) 2020 Vishwas Singh. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
