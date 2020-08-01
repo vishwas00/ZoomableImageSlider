@@ -1,9 +1,9 @@
 PODS:
-  - Kingfisher (5.13.4):
-    - Kingfisher/Core (= 5.13.4)
-  - Kingfisher/Core (5.13.4)
-  - ZoomableImageSlider (3.0.0):
-    - Kingfisher
+  - Kingfisher (5.14.1):
+    - Kingfisher/Core (= 5.14.1)
+  - Kingfisher/Core (5.14.1)
+  - ZoomableImageSlider (3.0.1):
+    - Kingfisher (= 5.14.1)
 
 DEPENDENCIES:
   - ZoomableImageSlider (from `../`)
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
-  ZoomableImageSlider: bcfcbc6458e20ab16d1897ce26108d2611479f4b
+  Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
+  ZoomableImageSlider: d83c275765d6f9f6e23d1ae05f1b513e564b632e
 
 PODFILE CHECKSUM: c86acf71ba1389ae97888d048bae4532e48f5ff7
 
