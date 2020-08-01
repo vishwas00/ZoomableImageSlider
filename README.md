@@ -1,9 +1,11 @@
 # ZoomableImageSlider
+ZoomableImageSlider is a simple iOS library for showing images in slider. It has following features-
+  Images are zoomable by double tap and by panning the finger as well.
+  Images are loaded from url (from internet).
+  Shows the image index as well.
+  Close the slider by simply swiping down
+  Support for all device orientations
 
-[![CI Status](https://img.shields.io/travis/Vishwas Singh/ZoomableImageSlider.svg?style=flat)](https://travis-ci.org/Vishwas Singh/ZoomableImageSlider)
-[![Version](https://img.shields.io/cocoapods/v/ZoomableImageSlider.svg?style=flat)](https://cocoapods.org/pods/ZoomableImageSlider)
-[![License](https://img.shields.io/cocoapods/l/ZoomableImageSlider.svg?style=flat)](https://cocoapods.org/pods/ZoomableImageSlider)
-[![Platform](https://img.shields.io/cocoapods/p/ZoomableImageSlider.svg?style=flat)](https://cocoapods.org/pods/ZoomableImageSlider)
 
 ## Example
 
@@ -22,7 +24,7 @@ pod 'ZoomableImageSlider'
 
 ## Author
 
-Vishwas Singh, vishwas.singh@timesinternet.in
+Vishwas Singh, singh.vis00@gmail.com
 
 ## License
 
